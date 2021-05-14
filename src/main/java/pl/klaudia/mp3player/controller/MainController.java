@@ -39,4 +39,14 @@ public class MainController {
     @FXML
     private Slider progressSlider;
 
+    public void initialize(){
+        configureButtons();
+        configureVolume();
+    }
+
+    private void configureVolume() {
+    }
+
+    private void configureButtons() {
+    }
 }
