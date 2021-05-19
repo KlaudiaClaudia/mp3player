@@ -7,11 +7,11 @@
     <children>
         <TextArea editable="false" prefHeight="200.0" prefWidth="200.0"
                   text="
-Program Mp3Player stworzony w kursie JavaStart.pl
+Mp3Player program created by Klaudia
 
-&#10;Wersja programu v1.0
+&#10;Version v1.0
 
-&#10;Wykorzystane biblioteki:
+&#10;Used Library:
 
 &#10;http://javamusictag.sourceforge.net/"
                   AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"

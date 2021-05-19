@@ -47,7 +47,7 @@ public class MainController {
     private void configureTableClick() {
         TableView<Mp3Song> contentTable = contentPaneController.getContentTable();
         contentTable.addEventHandler(MouseEvent.MOUSE_CLICKED,event ->{
-            if (event.getClickCount()==2){
+            if (event.getClickCount()==1){
                 // returns the index of the row someone clicked on
                 int selectedIndex = contentTable.getSelectionModel().getSelectedIndex();
                 playSelectedSong(selectedIndex);
