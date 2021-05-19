@@ -18,6 +18,7 @@ public class Mp3Parser {
         return new Mp3Song(title,artist,album,absolutePath);
     }
     public static List<Mp3Song> createMp3List(File dir) throws TagException, IOException {
+        // check if file is directory
         if (!dir.isDirectory()){
             throw new IllegalArgumentException("Not a directory");
         }
