@@ -5,4 +5,5 @@ module mp3player {
 
     exports pl.klaudia.mp3player.main to javafx.graphics;
     opens pl.klaudia.mp3player.controller to javafx.fxml;
+    opens pl.klaudia.mp3player.mp3 to javafx.base;
 }
