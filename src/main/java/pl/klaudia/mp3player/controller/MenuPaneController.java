@@ -18,4 +18,19 @@ public class MenuPaneController {
     private MenuItem aboutMenuItem;
 
 
+    public MenuItem getFileMenuItem() {
+        return fileMenuItem;
+    }
+
+    public MenuItem getDirMenuItem() {
+        return dirMenuItem;
+    }
+
+    public MenuItem getCloseMenuItem() {
+        return closeMenuItem;
+    }
+
+    public MenuItem getAboutMenuItem() {
+        return aboutMenuItem;
+    }
 }
