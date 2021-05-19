@@ -1,9 +1,9 @@
 package pl.klaudia.mp3player.player;
 
-import javafx.beans.Observable;
 import javafx.collections.ObservableList;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
+import javafx.scene.media.MediaPlayer.Status;
 import pl.klaudia.mp3player.mp3.Mp3Song;
 
 import java.io.File;
@@ -15,8 +15,8 @@ public class Mp3Player {
     private Media media;
     private MediaPlayer mediaPlayer;
 
-    public Mp3Player(MediaPlayer mediaPlayer) {
-        this.mediaPlayer = mediaPlayer;
+    public Mp3Player(ObservableList<Mp3Song> songList) {
+        this.songList = songList;
     }
 
     public MediaPlayer getMediaPlayer() {
